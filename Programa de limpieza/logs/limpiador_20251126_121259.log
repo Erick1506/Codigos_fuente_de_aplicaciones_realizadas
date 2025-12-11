@@ -1,0 +1,14 @@
+2025-11-26 12:13:01,538 - INFO - openpyxl cargado correctamente
+2025-11-26 12:13:01,584 - INFO - python-dateutil cargado correctamente
+2025-11-26 12:13:08,599 - INFO - xlwings disponible
+2025-11-26 12:13:10,259 - INFO - Interfaz gráfica iniciada correctamente
+2025-11-26 12:13:10,259 - INFO - Log guardándose en: logs\limpiador_20251126_121259.log
+2025-11-26 12:13:47,498 - INFO - Carpeta seleccionada: C:/Users/Usuario/Downloads/limpiar
+2025-11-26 12:13:47,499 - INFO - Iniciando procesamiento de carpeta: C:/Users/Usuario/Downloads/limpiar
+2025-11-26 12:13:53,196 - INFO - Archivos encontrados: 0
+2025-11-26 12:13:55,253 - WARNING - No se encontraron archivos Excel
+2025-11-26 12:14:03,233 - INFO - Usuario canceló selección de carpeta
+2025-11-26 12:14:05,667 - INFO - Carpeta seleccionada: C:/Users/Usuario/Downloads/limpiar
+2025-11-26 12:14:05,668 - INFO - Iniciando procesamiento de carpeta: C:/Users/Usuario/Downloads/limpiar
+2025-11-26 12:14:07,836 - INFO - Archivos encontrados: 0
+2025-11-26 12:14:10,779 - WARNING - No se encontraron archivos Excel

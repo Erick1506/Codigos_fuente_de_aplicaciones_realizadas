@@ -1,0 +1,6 @@
+openpyxl
+python-dateutil
+pyinstaller
+xlwings
+
+pyinstaller --onefile --windowed --name LimpiadorExcel --hidden-import=dateutil.parser --hidden-import=openpyxl app.py

@@ -1,0 +1,28 @@
+2025-11-26 14:53:28,704 - INFO - openpyxl cargado correctamente
+2025-11-26 14:53:28,759 - INFO - python-dateutil cargado correctamente
+2025-11-26 14:53:33,518 - INFO - xlwings disponible
+2025-11-26 14:53:35,234 - INFO - Interfaz gráfica iniciada correctamente
+2025-11-26 14:53:35,234 - INFO - Log guardándose en: logs\limpiador_20251126_145326.log
+2025-11-26 14:53:40,545 - INFO - Carpeta seleccionada: C:/Users/Usuario/Downloads/limpiar
+2025-11-26 14:53:40,546 - INFO - Iniciando procesamiento de carpeta: C:/Users/Usuario/Downloads/limpiar
+2025-11-26 14:53:42,009 - INFO - Archivos encontrados: 1
+2025-11-26 14:53:43,351 - INFO - Iniciando procesamiento de 1 archivos...
+2025-11-26 14:53:43,355 - INFO - [1/1] Procesando: reporte_excel copia.xlsx
+2025-11-26 14:53:43,358 - INFO - Tamaño de archivo: 0.30 MB
+2025-11-26 14:53:43,359 - INFO - ============================================================
+2025-11-26 14:53:43,359 - INFO - Iniciando procesamiento: C:/Users/Usuario/Downloads/limpiar\reporte_excel copia.xlsx
+2025-11-26 14:53:43,359 - INFO - Modo xlwings: False
+2025-11-26 14:53:43,360 - INFO - Iniciando proceso openpyxl para: C:/Users/Usuario/Downloads/limpiar\reporte_excel copia.xlsx
+2025-11-26 14:53:43,361 - INFO - Tamaño de archivo: 0.30 MB
+2025-11-26 14:53:43,362 - INFO - Intentando obtener valores con xlwings...
+2025-11-26 14:53:47,272 - INFO - Valores obtenidos con xlwings exitosamente
+2025-11-26 14:53:47,274 - INFO - Cargando workbook con estilos...
+2025-11-26 14:53:47,815 - INFO - Creando workbook de valores desde xlwings...
+2025-11-26 14:53:49,568 - INFO - Creando nuevo workbook...
+2025-11-26 14:53:49,569 - INFO - Procesando hoja 1/1: reporte_excel (4)
+2025-11-26 14:53:49,608 - INFO - Procesando hoja 'reporte_excel (4)': 2092 filas x 17 columnas
+2025-11-26 14:54:15,042 - INFO - Guardando archivo en: limpios\reporte_excel copia_20251126_145343.xlsx
+2025-11-26 14:54:16,141 - INFO - Proceso openpyxl completado: limpios\reporte_excel copia_20251126_145343.xlsx
+2025-11-26 14:54:16,165 - INFO - ✓ Archivo procesado exitosamente: limpios\reporte_excel copia_20251126_145343.xlsx
+2025-11-26 14:54:16,171 - INFO - Proceso finalizado. Exitosos: 1, Errores: 0
+2025-11-26 14:54:18,396 - INFO - Abriendo carpeta: C:\Users\Usuario\Downloads\Programa de limpieza\limpios

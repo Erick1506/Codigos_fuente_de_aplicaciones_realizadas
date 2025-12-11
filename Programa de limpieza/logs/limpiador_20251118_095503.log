@@ -1,0 +1,77 @@
+2025-11-18 09:55:04,448 - INFO - openpyxl cargado correctamente
+2025-11-18 09:55:04,491 - INFO - python-dateutil cargado correctamente
+2025-11-18 09:55:05,874 - INFO - xlwings disponible
+2025-11-18 09:55:06,754 - INFO - Interfaz gráfica iniciada correctamente
+2025-11-18 09:55:06,755 - INFO - Log guardándose en: logs\limpiador_20251118_095503.log
+2025-11-18 09:55:39,422 - INFO - Carpeta seleccionada: C:/Users/Usuario/Downloads/paralimpiar
+2025-11-18 09:55:39,423 - INFO - Iniciando procesamiento de carpeta: C:/Users/Usuario/Downloads/paralimpiar
+2025-11-18 09:55:41,111 - INFO - Archivos encontrados: 3
+2025-11-18 09:55:42,599 - INFO - Iniciando procesamiento de 3 archivos...
+2025-11-18 09:55:42,600 - INFO - [1/3] Procesando: DESAGREGACIÓN_GERENTE_PÚBLICO_082025..XLSX 01-MAIL-Anexos Respuestas Internas - No. 9-2025-094866 - N (1).xlsx
+2025-11-18 09:55:42,606 - INFO - Tamaño de archivo: 0.08 MB
+2025-11-18 09:55:42,606 - INFO - ============================================================
+2025-11-18 09:55:42,607 - INFO - Iniciando procesamiento: C:/Users/Usuario/Downloads/paralimpiar\DESAGREGACIÓN_GERENTE_PÚBLICO_082025..XLSX 01-MAIL-Anexos Respuestas Internas - No. 9-2025-094866 - N (1).xlsx
+2025-11-18 09:55:42,607 - INFO - Modo xlwings: False
+2025-11-18 09:55:42,608 - INFO - Iniciando proceso openpyxl para: C:/Users/Usuario/Downloads/paralimpiar\DESAGREGACIÓN_GERENTE_PÚBLICO_082025..XLSX 01-MAIL-Anexos Respuestas Internas - No. 9-2025-094866 - N (1).xlsx
+2025-11-18 09:55:42,609 - INFO - Tamaño de archivo: 0.08 MB
+2025-11-18 09:55:42,609 - INFO - Intentando obtener valores con xlwings...
+2025-11-18 09:55:44,663 - INFO - Valores obtenidos con xlwings exitosamente
+2025-11-18 09:55:44,664 - INFO - Cargando workbook con estilos...
+2025-11-18 09:55:44,824 - INFO - Creando workbook de valores desde xlwings...
+2025-11-18 09:55:44,865 - INFO - Creando nuevo workbook...
+2025-11-18 09:55:44,867 - INFO - Procesando hoja 1/4: CONSOLIDADO
+2025-11-18 09:55:44,872 - INFO - Procesando hoja 'CONSOLIDADO': 62 filas x 65 columnas
+2025-11-18 09:55:47,061 - INFO - Procesando hoja 2/4: APORTES
+2025-11-18 09:55:47,062 - INFO - Procesando hoja 'APORTES': 46 filas x 21 columnas
+2025-11-18 09:55:47,668 - INFO - Procesando hoja 3/4: FIC
+2025-11-18 09:55:47,669 - INFO - Procesando hoja 'FIC': 56 filas x 21 columnas
+2025-11-18 09:55:48,369 - INFO - Procesando hoja 4/4: CA
+2025-11-18 09:55:48,371 - INFO - Procesando hoja 'CA': 56 filas x 25 columnas
+2025-11-18 09:55:49,196 - INFO - Guardando archivo en: limpios\DESAGREGACIÓN_GERENTE_PÚBLICO_082025..XLSX 01-MAIL-Anexos Respuestas Internas - No. 9-2025-094866 - N (1)_20251118_095542.xlsx
+2025-11-18 09:55:49,501 - INFO - Proceso openpyxl completado: limpios\DESAGREGACIÓN_GERENTE_PÚBLICO_082025..XLSX 01-MAIL-Anexos Respuestas Internas - No. 9-2025-094866 - N (1)_20251118_095542.xlsx
+2025-11-18 09:55:49,506 - INFO - ✓ Archivo procesado exitosamente: limpios\DESAGREGACIÓN_GERENTE_PÚBLICO_082025..XLSX 01-MAIL-Anexos Respuestas Internas - No. 9-2025-094866 - N (1)_20251118_095542.xlsx
+2025-11-18 09:55:49,508 - INFO - [2/3] Procesando: DESAGREGACIÓN_GERENTE_PÚBLICO_082025..XLSX 01-MAIL-Anexos Respuestas Internas - No. 9-2025-094866 - N.xlsx
+2025-11-18 09:55:49,510 - INFO - Tamaño de archivo: 0.08 MB
+2025-11-18 09:55:49,511 - INFO - ============================================================
+2025-11-18 09:55:49,511 - INFO - Iniciando procesamiento: C:/Users/Usuario/Downloads/paralimpiar\DESAGREGACIÓN_GERENTE_PÚBLICO_082025..XLSX 01-MAIL-Anexos Respuestas Internas - No. 9-2025-094866 - N.xlsx
+2025-11-18 09:55:49,512 - INFO - Modo xlwings: False
+2025-11-18 09:55:49,512 - INFO - Iniciando proceso openpyxl para: C:/Users/Usuario/Downloads/paralimpiar\DESAGREGACIÓN_GERENTE_PÚBLICO_082025..XLSX 01-MAIL-Anexos Respuestas Internas - No. 9-2025-094866 - N.xlsx
+2025-11-18 09:55:49,513 - INFO - Tamaño de archivo: 0.08 MB
+2025-11-18 09:55:49,514 - INFO - Intentando obtener valores con xlwings...
+2025-11-18 09:55:51,247 - INFO - Valores obtenidos con xlwings exitosamente
+2025-11-18 09:55:51,247 - INFO - Cargando workbook con estilos...
+2025-11-18 09:55:51,407 - INFO - Creando workbook de valores desde xlwings...
+2025-11-18 09:55:51,447 - INFO - Creando nuevo workbook...
+2025-11-18 09:55:51,449 - INFO - Procesando hoja 1/4: CONSOLIDADO
+2025-11-18 09:55:51,454 - INFO - Procesando hoja 'CONSOLIDADO': 62 filas x 65 columnas
+2025-11-18 09:55:53,624 - INFO - Procesando hoja 2/4: APORTES
+2025-11-18 09:55:53,626 - INFO - Procesando hoja 'APORTES': 46 filas x 21 columnas
+2025-11-18 09:55:54,239 - INFO - Procesando hoja 3/4: FIC
+2025-11-18 09:55:54,240 - INFO - Procesando hoja 'FIC': 56 filas x 21 columnas
+2025-11-18 09:55:54,984 - INFO - Procesando hoja 4/4: CA
+2025-11-18 09:55:54,985 - INFO - Procesando hoja 'CA': 56 filas x 25 columnas
+2025-11-18 09:55:55,864 - INFO - Guardando archivo en: limpios\DESAGREGACIÓN_GERENTE_PÚBLICO_082025..XLSX 01-MAIL-Anexos Respuestas Internas - No. 9-2025-094866 - N_20251118_095549.xlsx
+2025-11-18 09:55:56,155 - INFO - Proceso openpyxl completado: limpios\DESAGREGACIÓN_GERENTE_PÚBLICO_082025..XLSX 01-MAIL-Anexos Respuestas Internas - No. 9-2025-094866 - N_20251118_095549.xlsx
+2025-11-18 09:55:56,157 - INFO - ✓ Archivo procesado exitosamente: limpios\DESAGREGACIÓN_GERENTE_PÚBLICO_082025..XLSX 01-MAIL-Anexos Respuestas Internas - No. 9-2025-094866 - N_20251118_095549.xlsx
+2025-11-18 09:55:56,159 - INFO - [3/3] Procesando: Reporte FINAL Cartera octubre 2025.xlsx
+2025-11-18 09:55:56,163 - INFO - Tamaño de archivo: 1.88 MB
+2025-11-18 09:55:56,163 - INFO - ============================================================
+2025-11-18 09:55:56,163 - INFO - Iniciando procesamiento: C:/Users/Usuario/Downloads/paralimpiar\Reporte FINAL Cartera octubre 2025.xlsx
+2025-11-18 09:55:56,164 - INFO - Modo xlwings: False
+2025-11-18 09:55:56,165 - INFO - Iniciando proceso openpyxl para: C:/Users/Usuario/Downloads/paralimpiar\Reporte FINAL Cartera octubre 2025.xlsx
+2025-11-18 09:55:56,166 - INFO - Tamaño de archivo: 1.88 MB
+2025-11-18 09:55:56,167 - INFO - Intentando obtener valores con xlwings...
+2025-11-18 09:55:58,995 - INFO - Valores obtenidos con xlwings exitosamente
+2025-11-18 09:55:58,996 - INFO - Cargando workbook con estilos...
+2025-11-18 09:56:02,887 - INFO - Creando workbook de valores desde xlwings...
+2025-11-18 09:56:07,061 - INFO - Creando nuevo workbook...
+2025-11-18 09:56:07,063 - INFO - Procesando hoja 1/1: Reporte_Historico_de_Cartera (2
+2025-11-18 09:56:07,334 - INFO - Procesando hoja 'Reporte_Historico_de_Cartera (2': 5400 filas x 63 columnas
+2025-11-18 09:59:46,723 - INFO - Guardando archivo en: limpios\Reporte FINAL Cartera octubre 2025.xlsx
+2025-11-18 09:59:54,964 - INFO - Proceso openpyxl completado: limpios\Reporte FINAL Cartera octubre 2025.xlsx
+2025-11-18 09:59:54,988 - INFO - ✓ Archivo procesado exitosamente: limpios\Reporte FINAL Cartera octubre 2025.xlsx
+2025-11-18 09:59:54,999 - INFO - Proceso finalizado. Exitosos: 3, Errores: 0
+2025-11-18 10:00:03,390 - INFO - Abriendo carpeta de logs: C:\Users\Usuario\Downloads\Programa de limpieza\logs
+2025-11-18 10:00:06,438 - INFO - Abriendo carpeta: C:\Users\Usuario\Downloads\Programa de limpieza\limpios
+2025-11-18 10:02:40,114 - INFO - Abriendo carpeta de logs: C:\Users\Usuario\Downloads\Programa de limpieza\logs
+2025-11-18 10:02:48,523 - INFO - Abriendo carpeta de logs: C:\Users\Usuario\Downloads\Programa de limpieza\logs

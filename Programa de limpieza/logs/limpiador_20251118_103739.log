@@ -1,0 +1,164 @@
+2025-11-18 10:37:41,148 - INFO - openpyxl cargado correctamente
+2025-11-18 10:37:41,194 - INFO - python-dateutil cargado correctamente
+2025-11-18 10:37:45,210 - INFO - xlwings disponible
+2025-11-18 10:37:46,617 - INFO - Interfaz gráfica iniciada correctamente
+2025-11-18 10:37:46,617 - INFO - Log guardándose en: logs\limpiador_20251118_103739.log
+2025-11-18 10:37:50,385 - INFO - Carpeta seleccionada: C:/Users/Usuario/Downloads/paralimpiar
+2025-11-18 10:37:50,385 - INFO - Iniciando procesamiento de carpeta: C:/Users/Usuario/Downloads/paralimpiar
+2025-11-18 10:37:51,930 - INFO - Archivos encontrados: 4
+2025-11-18 10:37:51,937 - INFO - Iniciando procesamiento de 4 archivos...
+2025-11-18 10:37:51,937 - INFO - [1/4] Procesando: DESAGREGACIÓN_GERENTE_PÚBLICO_082025..XLSX 01-MAIL-Anexos Respuestas Internas - No. 9-2025-094866 - N (1).xlsx
+2025-11-18 10:37:51,941 - INFO - Tamaño de archivo: 0.08 MB
+2025-11-18 10:37:51,942 - INFO - ============================================================
+2025-11-18 10:37:51,942 - INFO - Iniciando procesamiento: C:/Users/Usuario/Downloads/paralimpiar\DESAGREGACIÓN_GERENTE_PÚBLICO_082025..XLSX 01-MAIL-Anexos Respuestas Internas - No. 9-2025-094866 - N (1).xlsx
+2025-11-18 10:37:51,942 - INFO - Modo xlwings: False
+2025-11-18 10:37:51,943 - INFO - Iniciando proceso openpyxl para: C:/Users/Usuario/Downloads/paralimpiar\DESAGREGACIÓN_GERENTE_PÚBLICO_082025..XLSX 01-MAIL-Anexos Respuestas Internas - No. 9-2025-094866 - N (1).xlsx
+2025-11-18 10:37:51,944 - INFO - Tamaño de archivo: 0.08 MB
+2025-11-18 10:37:51,944 - INFO - Intentando obtener valores con xlwings...
+2025-11-18 10:37:54,076 - INFO - Valores obtenidos con xlwings exitosamente
+2025-11-18 10:37:54,076 - INFO - Cargando workbook con estilos...
+2025-11-18 10:37:54,225 - INFO - Creando workbook de valores desde xlwings...
+2025-11-18 10:37:54,262 - INFO - Creando nuevo workbook...
+2025-11-18 10:37:54,265 - INFO - Procesando hoja 1/4: CONSOLIDADO
+2025-11-18 10:37:54,271 - INFO - Procesando hoja 'CONSOLIDADO': 62 filas x 65 columnas
+2025-11-18 10:37:56,771 - INFO - Procesando hoja 2/4: APORTES
+2025-11-18 10:37:56,773 - INFO - Procesando hoja 'APORTES': 46 filas x 21 columnas
+2025-11-18 10:37:57,384 - INFO - Procesando hoja 3/4: FIC
+2025-11-18 10:37:57,386 - INFO - Procesando hoja 'FIC': 56 filas x 21 columnas
+2025-11-18 10:37:58,214 - INFO - Procesando hoja 4/4: CA
+2025-11-18 10:37:58,216 - INFO - Procesando hoja 'CA': 56 filas x 25 columnas
+2025-11-18 10:37:59,195 - INFO - Guardando archivo en: limpios\DESAGREGACIÓN_GERENTE_PÚBLICO_082025..XLSX 01-MAIL-Anexos Respuestas Internas - No. 9-2025-094866 - N (1).xlsx
+2025-11-18 10:37:59,483 - INFO - Proceso openpyxl completado: limpios\DESAGREGACIÓN_GERENTE_PÚBLICO_082025..XLSX 01-MAIL-Anexos Respuestas Internas - No. 9-2025-094866 - N (1).xlsx
+2025-11-18 10:37:59,501 - INFO - ✓ Archivo procesado exitosamente: limpios\DESAGREGACIÓN_GERENTE_PÚBLICO_082025..XLSX 01-MAIL-Anexos Respuestas Internas - No. 9-2025-094866 - N (1).xlsx
+2025-11-18 10:37:59,507 - INFO - [2/4] Procesando: DESAGREGACIÓN_GERENTE_PÚBLICO_082025..XLSX 01-MAIL-Anexos Respuestas Internas - No. 9-2025-094866 - N.xlsx
+2025-11-18 10:37:59,510 - INFO - Tamaño de archivo: 0.08 MB
+2025-11-18 10:37:59,513 - INFO - ============================================================
+2025-11-18 10:37:59,515 - INFO - Iniciando procesamiento: C:/Users/Usuario/Downloads/paralimpiar\DESAGREGACIÓN_GERENTE_PÚBLICO_082025..XLSX 01-MAIL-Anexos Respuestas Internas - No. 9-2025-094866 - N.xlsx
+2025-11-18 10:37:59,515 - INFO - Modo xlwings: False
+2025-11-18 10:37:59,516 - INFO - Iniciando proceso openpyxl para: C:/Users/Usuario/Downloads/paralimpiar\DESAGREGACIÓN_GERENTE_PÚBLICO_082025..XLSX 01-MAIL-Anexos Respuestas Internas - No. 9-2025-094866 - N.xlsx
+2025-11-18 10:37:59,516 - INFO - Tamaño de archivo: 0.08 MB
+2025-11-18 10:37:59,517 - INFO - Intentando obtener valores con xlwings...
+2025-11-18 10:38:01,367 - INFO - Valores obtenidos con xlwings exitosamente
+2025-11-18 10:38:01,368 - INFO - Cargando workbook con estilos...
+2025-11-18 10:38:01,533 - INFO - Creando workbook de valores desde xlwings...
+2025-11-18 10:38:01,574 - INFO - Creando nuevo workbook...
+2025-11-18 10:38:01,575 - INFO - Procesando hoja 1/4: CONSOLIDADO
+2025-11-18 10:38:01,581 - INFO - Procesando hoja 'CONSOLIDADO': 62 filas x 65 columnas
+2025-11-18 10:38:03,872 - INFO - Procesando hoja 2/4: APORTES
+2025-11-18 10:38:03,874 - INFO - Procesando hoja 'APORTES': 46 filas x 21 columnas
+2025-11-18 10:38:04,515 - INFO - Procesando hoja 3/4: FIC
+2025-11-18 10:38:04,517 - INFO - Procesando hoja 'FIC': 56 filas x 21 columnas
+2025-11-18 10:38:05,250 - INFO - Procesando hoja 4/4: CA
+2025-11-18 10:38:05,252 - INFO - Procesando hoja 'CA': 56 filas x 25 columnas
+2025-11-18 10:38:06,077 - INFO - Guardando archivo en: limpios\DESAGREGACIÓN_GERENTE_PÚBLICO_082025..XLSX 01-MAIL-Anexos Respuestas Internas - No. 9-2025-094866 - N.xlsx
+2025-11-18 10:38:06,364 - INFO - Proceso openpyxl completado: limpios\DESAGREGACIÓN_GERENTE_PÚBLICO_082025..XLSX 01-MAIL-Anexos Respuestas Internas - No. 9-2025-094866 - N.xlsx
+2025-11-18 10:38:06,366 - INFO - ✓ Archivo procesado exitosamente: limpios\DESAGREGACIÓN_GERENTE_PÚBLICO_082025..XLSX 01-MAIL-Anexos Respuestas Internas - No. 9-2025-094866 - N.xlsx
+2025-11-18 10:38:06,368 - INFO - [3/4] Procesando: Reporte FINAL Cartera octubre 2025.xlsx
+2025-11-18 10:38:06,371 - INFO - Tamaño de archivo: 1.88 MB
+2025-11-18 10:38:06,371 - INFO - ============================================================
+2025-11-18 10:38:06,371 - INFO - Iniciando procesamiento: C:/Users/Usuario/Downloads/paralimpiar\Reporte FINAL Cartera octubre 2025.xlsx
+2025-11-18 10:38:06,371 - INFO - Modo xlwings: False
+2025-11-18 10:38:06,372 - INFO - Iniciando proceso openpyxl para: C:/Users/Usuario/Downloads/paralimpiar\Reporte FINAL Cartera octubre 2025.xlsx
+2025-11-18 10:38:06,373 - INFO - Tamaño de archivo: 1.88 MB
+2025-11-18 10:38:06,374 - INFO - Intentando obtener valores con xlwings...
+2025-11-18 10:38:09,345 - INFO - Valores obtenidos con xlwings exitosamente
+2025-11-18 10:38:09,345 - INFO - Cargando workbook con estilos...
+2025-11-18 10:38:13,243 - INFO - Creando workbook de valores desde xlwings...
+2025-11-18 10:38:17,065 - INFO - Creando nuevo workbook...
+2025-11-18 10:38:17,067 - INFO - Procesando hoja 1/1: Reporte_Historico_de_Cartera (2
+2025-11-18 10:38:17,315 - INFO - Procesando hoja 'Reporte_Historico_de_Cartera (2': 5400 filas x 63 columnas
+2025-11-18 10:42:07,869 - INFO - Guardando archivo en: limpios\Reporte FINAL Cartera octubre 2025.xlsx
+2025-11-18 10:42:16,335 - INFO - Proceso openpyxl completado: limpios\Reporte FINAL Cartera octubre 2025.xlsx
+2025-11-18 10:42:16,364 - INFO - ✓ Archivo procesado exitosamente: limpios\Reporte FINAL Cartera octubre 2025.xlsx
+2025-11-18 10:42:16,385 - INFO - [4/4] Procesando: ~$Reporte FINAL Cartera octubre 2025.xlsx
+2025-11-18 10:42:16,389 - INFO - Tamaño de archivo: 0.00 MB
+2025-11-18 10:42:16,389 - INFO - ============================================================
+2025-11-18 10:42:16,390 - INFO - Iniciando procesamiento: C:/Users/Usuario/Downloads/paralimpiar\~$Reporte FINAL Cartera octubre 2025.xlsx
+2025-11-18 10:42:16,390 - INFO - Modo xlwings: False
+2025-11-18 10:42:16,390 - INFO - Iniciando proceso openpyxl para: C:/Users/Usuario/Downloads/paralimpiar\~$Reporte FINAL Cartera octubre 2025.xlsx
+2025-11-18 10:42:16,391 - INFO - Tamaño de archivo: 0.00 MB
+2025-11-18 10:42:16,392 - INFO - Intentando obtener valores con xlwings...
+2025-11-18 10:42:17,657 - WARNING - No se pudo usar xlwings para valores: (-2147352567, 'Ocurrió una excepción.', (0, 'Microsoft Excel', "Excel no puede abrir el archivo '~$Reporte FINAL Cartera octubre 2025.xlsx' porque el formato o la extensión no son válidos. Compruebe que el archivo no se ha dañado y que la extensión y el formato del archivo coinciden.", 'xlmain11.chm', 0, -2146827284), None)
+2025-11-18 10:42:18,098 - INFO - Cargando workbook con estilos...
+2025-11-18 10:42:18,098 - ERROR - Error cargando workbook: [Errno 13] Permission denied: 'C:\\Users\\Usuario\\Downloads\\paralimpiar\\~$Reporte FINAL Cartera octubre 2025.xlsx'
+2025-11-18 10:42:18,099 - ERROR - Error crítico en proceso openpyxl: No se pudo abrir C:\Users\Usuario\Downloads\paralimpiar\~$Reporte FINAL Cartera octubre 2025.xlsx con openpyxl: [Errno 13] Permission denied: 'C:\\Users\\Usuario\\Downloads\\paralimpiar\\~$Reporte FINAL Cartera octubre 2025.xlsx'
+2025-11-18 10:42:18,208 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Programa de limpieza\app.py", line 629, in process_workbook_openpyxl_copy
+    wb_styles = load_workbook(filename=str(path), data_only=False, read_only=False)
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+                         data_only, keep_links, rich_text)
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\zipfile\__init__.py", line 1440, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Usuario\\Downloads\\paralimpiar\\~$Reporte FINAL Cartera octubre 2025.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Programa de limpieza\app.py", line 632, in process_workbook_openpyxl_copy
+    raise RuntimeError(f"No se pudo abrir {path} con openpyxl: {e}")
+RuntimeError: No se pudo abrir C:\Users\Usuario\Downloads\paralimpiar\~$Reporte FINAL Cartera octubre 2025.xlsx con openpyxl: [Errno 13] Permission denied: 'C:\\Users\\Usuario\\Downloads\\paralimpiar\\~$Reporte FINAL Cartera octubre 2025.xlsx'
+
+2025-11-18 10:42:18,212 - ERROR - Error procesando C:/Users/Usuario/Downloads/paralimpiar\~$Reporte FINAL Cartera octubre 2025.xlsx: No se pudo abrir C:\Users\Usuario\Downloads\paralimpiar\~$Reporte FINAL Cartera octubre 2025.xlsx con openpyxl: [Errno 13] Permission denied: 'C:\\Users\\Usuario\\Downloads\\paralimpiar\\~$Reporte FINAL Cartera octubre 2025.xlsx'
+2025-11-18 10:42:18,215 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Programa de limpieza\app.py", line 629, in process_workbook_openpyxl_copy
+    wb_styles = load_workbook(filename=str(path), data_only=False, read_only=False)
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+                         data_only, keep_links, rich_text)
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\zipfile\__init__.py", line 1440, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Usuario\\Downloads\\paralimpiar\\~$Reporte FINAL Cartera octubre 2025.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Programa de limpieza\app.py", line 749, in process_workbook
+    return process_workbook_openpyxl_copy(filepath, dest_folder)
+  File "C:\Users\Usuario\Downloads\Programa de limpieza\app.py", line 632, in process_workbook_openpyxl_copy
+    raise RuntimeError(f"No se pudo abrir {path} con openpyxl: {e}")
+RuntimeError: No se pudo abrir C:\Users\Usuario\Downloads\paralimpiar\~$Reporte FINAL Cartera octubre 2025.xlsx con openpyxl: [Errno 13] Permission denied: 'C:\\Users\\Usuario\\Downloads\\paralimpiar\\~$Reporte FINAL Cartera octubre 2025.xlsx'
+
+2025-11-18 10:42:18,219 - ERROR - ✗ Error procesando ~$Reporte FINAL Cartera octubre 2025.xlsx: No se pudo abrir C:\Users\Usuario\Downloads\paralimpiar\~$Reporte FINAL Cartera octubre 2025.xlsx con openpyxl: [Errno 13] Permission denied: 'C:\\Users\\Usuario\\Downloads\\paralimpiar\\~$Reporte FINAL Cartera octubre 2025.xlsx'
+2025-11-18 10:42:18,222 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Programa de limpieza\app.py", line 629, in process_workbook_openpyxl_copy
+    wb_styles = load_workbook(filename=str(path), data_only=False, read_only=False)
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+                         data_only, keep_links, rich_text)
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\zipfile\__init__.py", line 1440, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Usuario\\Downloads\\paralimpiar\\~$Reporte FINAL Cartera octubre 2025.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\Programa de limpieza\app.py", line 880, in procesar_carpeta
+    out = process_workbook(ruta_proc, carpeta_destino, use_xlwings_mode=use_xlwings_mode)
+  File "C:\Users\Usuario\Downloads\Programa de limpieza\app.py", line 749, in process_workbook
+    return process_workbook_openpyxl_copy(filepath, dest_folder)
+  File "C:\Users\Usuario\Downloads\Programa de limpieza\app.py", line 632, in process_workbook_openpyxl_copy
+    raise RuntimeError(f"No se pudo abrir {path} con openpyxl: {e}")
+RuntimeError: No se pudo abrir C:\Users\Usuario\Downloads\paralimpiar\~$Reporte FINAL Cartera octubre 2025.xlsx con openpyxl: [Errno 13] Permission denied: 'C:\\Users\\Usuario\\Downloads\\paralimpiar\\~$Reporte FINAL Cartera octubre 2025.xlsx'
+
+2025-11-18 10:42:18,229 - INFO - Proceso finalizado. Exitosos: 3, Errores: 1
+2025-11-18 10:46:18,274 - INFO - Abriendo carpeta: C:\Users\Usuario\Downloads\Programa de limpieza\limpios
+2025-11-18 11:01:28,007 - INFO - Abriendo carpeta de logs: C:\Users\Usuario\Downloads\Programa de limpieza\logs

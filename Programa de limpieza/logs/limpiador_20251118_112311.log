@@ -1,0 +1,5 @@
+2025-11-18 11:23:12,113 - INFO - openpyxl cargado correctamente
+2025-11-18 11:23:12,161 - INFO - python-dateutil cargado correctamente
+2025-11-18 11:23:13,940 - INFO - xlwings disponible
+2025-11-18 11:23:15,183 - INFO - Interfaz gráfica iniciada correctamente
+2025-11-18 11:23:15,184 - INFO - Log guardándose en: logs\limpiador_20251118_112311.log

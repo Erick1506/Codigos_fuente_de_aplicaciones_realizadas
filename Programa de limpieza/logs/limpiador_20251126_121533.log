@@ -1,0 +1,60 @@
+2025-11-26 12:15:34,097 - INFO - openpyxl cargado correctamente
+2025-11-26 12:15:34,133 - INFO - python-dateutil cargado correctamente
+2025-11-26 12:15:35,052 - INFO - xlwings disponible
+2025-11-26 12:15:35,731 - INFO - Interfaz gráfica iniciada correctamente
+2025-11-26 12:15:35,732 - INFO - Log guardándose en: logs\limpiador_20251126_121533.log
+2025-11-26 12:15:41,201 - INFO - Carpeta seleccionada: C:/Users/Usuario/Downloads/limpiar
+2025-11-26 12:15:41,202 - INFO - Iniciando procesamiento de carpeta: C:/Users/Usuario/Downloads/limpiar
+2025-11-26 12:15:43,849 - INFO - Archivos encontrados: 0
+2025-11-26 12:15:46,814 - WARNING - No se encontraron archivos Excel
+2025-11-26 12:17:15,674 - INFO - Carpeta seleccionada: C:/Users/Usuario/Downloads/limpiar
+2025-11-26 12:17:15,679 - INFO - Iniciando procesamiento de carpeta: C:/Users/Usuario/Downloads/limpiar
+2025-11-26 12:17:17,111 - INFO - Archivos encontrados: 1
+2025-11-26 12:17:17,116 - INFO - Iniciando procesamiento de 1 archivos...
+2025-11-26 12:17:17,117 - INFO - [1/1] Procesando: Libro1.xlsx
+2025-11-26 12:17:17,122 - INFO - Tamaño de archivo: 0.30 MB
+2025-11-26 12:17:17,122 - INFO - ============================================================
+2025-11-26 12:17:17,123 - INFO - Iniciando procesamiento: C:/Users/Usuario/Downloads/limpiar\Libro1.xlsx
+2025-11-26 12:17:17,123 - INFO - Modo xlwings: False
+2025-11-26 12:17:17,124 - INFO - Iniciando proceso openpyxl para: C:/Users/Usuario/Downloads/limpiar\Libro1.xlsx
+2025-11-26 12:17:17,125 - INFO - Tamaño de archivo: 0.30 MB
+2025-11-26 12:17:17,126 - INFO - Intentando obtener valores con xlwings...
+2025-11-26 12:17:19,789 - INFO - Valores obtenidos con xlwings exitosamente
+2025-11-26 12:17:19,789 - INFO - Cargando workbook con estilos...
+2025-11-26 12:17:20,336 - INFO - Creando workbook de valores desde xlwings...
+2025-11-26 12:17:21,606 - INFO - Creando nuevo workbook...
+2025-11-26 12:17:21,608 - INFO - Procesando hoja 1/1: Hoja1
+2025-11-26 12:17:21,648 - INFO - Procesando hoja 'Hoja1': 2092 filas x 17 columnas
+2025-11-26 12:17:46,753 - INFO - Guardando archivo en: limpios\Libro1.xlsx
+2025-11-26 12:17:47,919 - INFO - Proceso openpyxl completado: limpios\Libro1.xlsx
+2025-11-26 12:17:47,933 - INFO - ✓ Archivo procesado exitosamente: limpios\Libro1.xlsx
+2025-11-26 12:17:47,942 - INFO - Proceso finalizado. Exitosos: 1, Errores: 0
+2025-11-26 12:17:52,546 - INFO - Abriendo carpeta: C:\Users\Usuario\Downloads\Programa de limpieza\limpios
+2025-11-26 12:19:20,018 - INFO - Abriendo carpeta: C:\Users\Usuario\Downloads\Programa de limpieza\limpios
+2025-11-26 12:19:28,604 - INFO - Carpeta seleccionada: C:/Users/Usuario/Downloads/limpiar
+2025-11-26 12:19:28,604 - INFO - Iniciando procesamiento de carpeta: C:/Users/Usuario/Downloads/limpiar
+2025-11-26 12:19:30,462 - INFO - Archivos encontrados: 0
+2025-11-26 12:19:31,709 - WARNING - No se encontraron archivos Excel
+2025-11-26 12:20:15,201 - INFO - Carpeta seleccionada: C:/Users/Usuario/Downloads/limpiar
+2025-11-26 12:20:15,202 - INFO - Iniciando procesamiento de carpeta: C:/Users/Usuario/Downloads/limpiar
+2025-11-26 12:20:16,590 - INFO - Archivos encontrados: 1
+2025-11-26 12:20:16,594 - INFO - Iniciando procesamiento de 1 archivos...
+2025-11-26 12:20:16,596 - INFO - [1/1] Procesando: reporte_excel copia.xlsx
+2025-11-26 12:20:16,598 - INFO - Tamaño de archivo: 0.30 MB
+2025-11-26 12:20:16,599 - INFO - ============================================================
+2025-11-26 12:20:16,599 - INFO - Iniciando procesamiento: C:/Users/Usuario/Downloads/limpiar\reporte_excel copia.xlsx
+2025-11-26 12:20:16,600 - INFO - Modo xlwings: False
+2025-11-26 12:20:16,600 - INFO - Iniciando proceso openpyxl para: C:/Users/Usuario/Downloads/limpiar\reporte_excel copia.xlsx
+2025-11-26 12:20:16,605 - INFO - Tamaño de archivo: 0.30 MB
+2025-11-26 12:20:16,605 - INFO - Intentando obtener valores con xlwings...
+2025-11-26 12:20:19,049 - INFO - Valores obtenidos con xlwings exitosamente
+2025-11-26 12:20:19,050 - INFO - Cargando workbook con estilos...
+2025-11-26 12:20:19,655 - INFO - Creando workbook de valores desde xlwings...
+2025-11-26 12:20:20,944 - INFO - Creando nuevo workbook...
+2025-11-26 12:20:20,948 - INFO - Procesando hoja 1/1: reporte_excel (4)
+2025-11-26 12:20:20,990 - INFO - Procesando hoja 'reporte_excel (4)': 2092 filas x 17 columnas
+2025-11-26 12:20:44,867 - INFO - Guardando archivo en: limpios\reporte_excel copia.xlsx
+2025-11-26 12:20:45,943 - INFO - Proceso openpyxl completado: limpios\reporte_excel copia.xlsx
+2025-11-26 12:20:45,956 - INFO - ✓ Archivo procesado exitosamente: limpios\reporte_excel copia.xlsx
+2025-11-26 12:20:45,969 - INFO - Proceso finalizado. Exitosos: 1, Errores: 0
+2025-11-26 12:20:49,210 - INFO - Abriendo carpeta: C:\Users\Usuario\Downloads\Programa de limpieza\limpios
