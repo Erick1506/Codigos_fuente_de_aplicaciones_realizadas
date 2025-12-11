@@ -1,0 +1,46 @@
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://10.1.30.104:8501
+
+2025-11-13 11:11:05,625 [INFO] Tesseract ejecutable: C:\Program Files\Tesseract-OCR\tesseract.exe
+2025-11-13 11:11:05,625 [INFO] tessdata (TESSDATA_PREFIX) apuntando a: C:\Program Files\Tesseract-OCR\tessdata
+2025-11-13 11:11:05,626 [INFO] Idiomas instalados en tessdata: ['eng', 'osd', 'spa']
+2025-11-13 11:11:22,580 [INFO] Tesseract ejecutable: C:\Program Files\Tesseract-OCR\tesseract.exe
+2025-11-13 11:11:22,580 [INFO] tessdata (TESSDATA_PREFIX) apuntando a: C:\Program Files\Tesseract-OCR\tessdata
+2025-11-13 11:11:22,581 [INFO] Idiomas instalados en tessdata: ['eng', 'osd', 'spa']
+2025-11-13 11:12:10,984 [INFO] Archivo '901040344SENA_FIC_VIGENCIA 2025.PDF 01-MAIL-Anexos Respuestas Internas - No. 9-2025-050165 - NIS  202.pdf' contiene frase 'fic' -> item recibo_pago_fic
+2025-11-13 11:13:06,618 [INFO] Archivo 'CAMARA DE COMERCIO HIKBLU S.A.S. 09 DE OCTUBRE DE 2025.PDF 01-MAIL-Anexos Respuestas Internas - No. 9.pdf' contiene frase 'camara de comercio' -> item camara_comercio
+2025-11-13 11:13:08,532 [INFO] Archivo 'CEDULA REPRESENTANTE LEGAL.PDF 01-MAIL-Anexos Respuestas Internas - No. 9-2025-050165 - NIS  2025-02-.pdf' contiene frase 'cedula' -> item cedula_persona_natural
+2025-11-13 11:13:10,639 [INFO] Archivo 'CERTIFICACION BANCARIA HIKBLU OCT 24 2025.PDF 01-MAIL-Anexos Respuestas Internas - No. 9-2025-050165.pdf' contiene frase 'certificacion bancaria' -> item cert_bancaria
+2025-11-13 11:13:10,640 [INFO] Archivo 'CERTIFICACION BANCARIA HIKBLU OCT 24 2025.PDF 01-MAIL-Anexos Respuestas Internas - No. 9-2025-050165.pdf' contiene frase 'fic' -> item recibo_pago_fic
+2025-11-13 11:13:41,362 [INFO] Archivo 'CERTIFICACIÓN DEVOLUCIÓN  SOCIEDAD HIKBLU SAS.PDF 01-MAIL-Anexos Respuestas Internas - No. 9-2025-050.pdf' contiene frase 'fic' -> item recibo_pago_fic
+2025-11-13 11:14:10,437 [INFO] Archivo 'CERTIFICADO CONTADORA.PDF 01-MAIL-Anexos Respuestas Internas - No. 9-2025-050165 - NIS  2025-02-49278.pdf' contiene frase 'contador' -> item cert_contador
+2025-11-13 11:14:10,438 [INFO] Archivo 'CERTIFICADO CONTADORA.PDF 01-MAIL-Anexos Respuestas Internas - No. 9-2025-050165 - NIS  2025-02-49278.pdf' contiene frase 'fic' -> item recibo_pago_fic
+2025-11-13 11:14:21,044 [INFO] Tesseract ejecutable: C:\Program Files\Tesseract-OCR\tesseract.exe
+2025-11-13 11:14:21,044 [INFO] tessdata (TESSDATA_PREFIX) apuntando a: C:\Program Files\Tesseract-OCR\tessdata
+2025-11-13 11:14:21,044 [INFO] Idiomas instalados en tessdata: ['eng', 'osd', 'spa']
+2025-11-13 11:15:13,879 [INFO] Archivo '901040344SENA_FIC_VIGENCIA 2025.PDF 01-MAIL-Anexos Respuestas Internas - No. 9-2025-050165 - NIS  202.pdf' contiene frase 'fic' -> item recibo_pago_fic
+2025-11-13 11:15:19.516 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+2025-11-13 11:15:26.126 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+2025-11-13 11:15:32.604 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+2025-11-13 11:15:40.568 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+2025-11-13 11:15:50.261 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+2025-11-13 11:15:58.260 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+2025-11-13 11:16:02,574 [INFO] Tesseract ejecutable: C:\Program Files\Tesseract-OCR\tesseract.exe
+2025-11-13 11:16:02,575 [INFO] tessdata (TESSDATA_PREFIX) apuntando a: C:\Program Files\Tesseract-OCR\tessdata
+2025-11-13 11:16:02,575 [INFO] Idiomas instalados en tessdata: ['eng', 'osd', 'spa']
+2025-11-13 11:16:55,970 [INFO] Archivo '901040344SENA_FIC_VIGENCIA 2025.PDF 01-MAIL-Anexos Respuestas Internas - No. 9-2025-050165 - NIS  202.pdf' contiene frase 'fic' -> item recibo_pago_fic
+2025-11-13 11:17:50,946 [INFO] Archivo 'CAMARA DE COMERCIO HIKBLU S.A.S. 09 DE OCTUBRE DE 2025.PDF 01-MAIL-Anexos Respuestas Internas - No. 9.pdf' contiene frase 'camara de comercio' -> item camara_comercio
+2025-11-13 11:17:52,861 [INFO] Archivo 'CEDULA REPRESENTANTE LEGAL.PDF 01-MAIL-Anexos Respuestas Internas - No. 9-2025-050165 - NIS  2025-02-.pdf' contiene frase 'cedula' -> item cedula_persona_natural
+2025-11-13 11:17:55,102 [INFO] Archivo 'CERTIFICACION BANCARIA HIKBLU OCT 24 2025.PDF 01-MAIL-Anexos Respuestas Internas - No. 9-2025-050165.pdf' contiene frase 'certificacion bancaria' -> item cert_bancaria
+2025-11-13 11:17:55,103 [INFO] Archivo 'CERTIFICACION BANCARIA HIKBLU OCT 24 2025.PDF 01-MAIL-Anexos Respuestas Internas - No. 9-2025-050165.pdf' contiene frase 'fic' -> item recibo_pago_fic
+2025-11-13 11:18:25,109 [INFO] Archivo 'CERTIFICACIÓN DEVOLUCIÓN  SOCIEDAD HIKBLU SAS.PDF 01-MAIL-Anexos Respuestas Internas - No. 9-2025-050.pdf' contiene frase 'fic' -> item recibo_pago_fic
+2025-11-13 11:18:54,190 [INFO] Archivo 'CERTIFICADO CONTADORA.PDF 01-MAIL-Anexos Respuestas Internas - No. 9-2025-050165 - NIS  2025-02-49278.pdf' contiene frase 'contador' -> item cert_contador
+2025-11-13 11:18:54,190 [INFO] Archivo 'CERTIFICADO CONTADORA.PDF 01-MAIL-Anexos Respuestas Internas - No. 9-2025-050165 - NIS  2025-02-49278.pdf' contiene frase 'fic' -> item recibo_pago_fic
+2025-11-13 11:20:13,912 [INFO] Archivo 'RESOLUCION DEVOLUCION HIKBLU SAS.PDF 01-MAIL-Anexos Respuestas Internas - No. 9-2025-050165 - NIS  20.pdf' contiene frase 'resolucion' -> item resoluciones_multas
+2025-11-13 11:20:32,773 [INFO] Archivo 'RUT HIKBLU 15-10-2025.PDF 01-MAIL-Anexos Respuestas Internas - No. 9-2025-050165 - NIS  2025-02-49278.pdf' contiene frase 'rut' -> item rut
+2025-11-13 11:22:26,969 [INFO] Archivo 'SOLICITUD RADICADA DEVOLUCION.PDF 01-MAIL-Anexos Respuestas Internas - No. 9-2025-050165 - NIS  2025-.pdf' contiene frase 'solicitud' -> item carta_representante
+2025-11-13 11:22:29,202 [INFO] Archivo 'TARJETA PROFESIONAL CONTADORA.PDF 01-MAIL-Anexos Respuestas Internas - No. 9-2025-050165 - NIS  2025-.pdf' contiene frase 'contador' -> item cert_contador
+2025-11-13 11:22:29,202 [INFO] Archivo 'TARJETA PROFESIONAL CONTADORA.PDF 01-MAIL-Anexos Respuestas Internas - No. 9-2025-050165 - NIS  2025-.pdf' contiene frase 'tarjeta profesional contador' -> item tarjeta_profesional
