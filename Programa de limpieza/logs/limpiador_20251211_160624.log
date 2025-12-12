@@ -1,0 +1,47 @@
+2025-12-11 16:06:26,525 - INFO - openpyxl cargado correctamente
+2025-12-11 16:06:26,568 - INFO - python-dateutil cargado correctamente
+2025-12-11 16:06:32,126 - INFO - xlwings disponible
+2025-12-11 16:06:33,685 - INFO - Interfaz gráfica iniciada correctamente
+2025-12-11 16:06:33,685 - INFO - Log guardándose en: logs\limpiador_20251211_160624.log
+2025-12-11 16:07:05,491 - INFO - Carpeta seleccionada: C:/Users/Usuario/Downloads/para limpiar
+2025-12-11 16:07:05,492 - INFO - Iniciando procesamiento de carpeta: C:/Users/Usuario/Downloads/para limpiar
+2025-12-11 16:07:15,427 - INFO - Subcarpeta creada: limpios\3.0
+2025-12-11 16:07:15,429 - INFO - Archivos encontrados: 3
+2025-12-11 16:07:15,433 - INFO - Iniciando procesamiento de 3 archivos...
+2025-12-11 16:07:15,433 - INFO - [1/3] Procesando: DESAGREGACIÓN_GERENTE_PÚBLICO_102025._.xlsx
+2025-12-11 16:07:15,437 - INFO - Tamaño de archivo: 0.08 MB
+2025-12-11 16:07:15,438 - INFO - ============================================================
+2025-12-11 16:07:15,438 - INFO - Iniciando procesamiento: C:/Users/Usuario/Downloads/para limpiar\DESAGREGACIÓN_GERENTE_PÚBLICO_102025._.xlsx
+2025-12-11 16:07:15,439 - INFO - Modo xlwings: False
+2025-12-11 16:07:15,439 - INFO - Iniciando proceso openpyxl para: C:/Users/Usuario/Downloads/para limpiar\DESAGREGACIÓN_GERENTE_PÚBLICO_102025._.xlsx
+2025-12-11 16:07:15,440 - INFO - Tamaño de archivo: 0.08 MB
+2025-12-11 16:07:15,441 - INFO - Intentando obtener valores con xlwings...
+2025-12-11 16:07:17,991 - INFO - Valores obtenidos con xlwings exitosamente
+2025-12-11 16:07:17,992 - INFO - Cargando workbook con estilos...
+2025-12-11 16:07:18,154 - INFO - Creando workbook de valores desde xlwings...
+2025-12-11 16:07:18,194 - INFO - Creando nuevo workbook...
+2025-12-11 16:07:18,195 - INFO - Procesando hoja 1/4: CONSOLIDADO
+2025-12-11 16:07:18,201 - INFO - Procesando hoja 'CONSOLIDADO': 62 filas x 65 columnas
+2025-12-11 16:07:20,392 - INFO - Procesando hoja 2/4: APORTES
+2025-12-11 16:07:20,394 - INFO - Procesando hoja 'APORTES': 46 filas x 21 columnas
+2025-12-11 16:07:21,045 - INFO - Procesando hoja 3/4: FIC
+2025-12-11 16:07:21,047 - INFO - Procesando hoja 'FIC': 56 filas x 21 columnas
+2025-12-11 16:07:21,794 - INFO - Procesando hoja 4/4: CA
+2025-12-11 16:07:21,796 - INFO - Procesando hoja 'CA': 56 filas x 25 columnas
+2025-12-11 16:07:22,633 - INFO - Guardando archivo en: limpios\3.0\DESAGREGACIÓN_GERENTE_PÚBLICO_102025._.xlsx
+2025-12-11 16:07:22,930 - INFO - Proceso openpyxl completado: limpios\3.0\DESAGREGACIÓN_GERENTE_PÚBLICO_102025._.xlsx
+2025-12-11 16:07:22,946 - INFO - ✓ Archivo procesado exitosamente: limpios\3.0\DESAGREGACIÓN_GERENTE_PÚBLICO_102025._.xlsx
+2025-12-11 16:07:22,954 - INFO - [2/3] Procesando: Reporte de liquidaciones Corte 04-Dic.xlsx
+2025-12-11 16:07:22,957 - INFO - Tamaño de archivo: 6.24 MB
+2025-12-11 16:07:22,958 - INFO - ============================================================
+2025-12-11 16:07:22,958 - INFO - Iniciando procesamiento: C:/Users/Usuario/Downloads/para limpiar\Reporte de liquidaciones Corte 04-Dic.xlsx
+2025-12-11 16:07:22,958 - INFO - Modo xlwings: False
+2025-12-11 16:07:22,959 - INFO - Iniciando proceso openpyxl para: C:/Users/Usuario/Downloads/para limpiar\Reporte de liquidaciones Corte 04-Dic.xlsx
+2025-12-11 16:07:22,960 - INFO - Tamaño de archivo: 6.24 MB
+2025-12-11 16:07:22,961 - INFO - Intentando obtener valores con xlwings...
+2025-12-11 16:07:34,617 - INFO - Valores obtenidos con xlwings exitosamente
+2025-12-11 16:07:34,618 - INFO - Cargando workbook con estilos...
+2025-12-11 16:07:47,366 - INFO - Creando workbook de valores desde xlwings...
+2025-12-11 16:08:19,690 - INFO - Creando nuevo workbook...
+2025-12-11 16:08:19,697 - INFO - Procesando hoja 1/1: Reporte_de_Liquidaciónes
+2025-12-11 16:08:20,349 - INFO - Procesando hoja 'Reporte_de_Liquidaciónes': 32334 filas x 30 columnas

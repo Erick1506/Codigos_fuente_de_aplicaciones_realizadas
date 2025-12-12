@@ -1,0 +1,34 @@
+2025-12-12 09:05:19,131 - INFO - openpyxl cargado correctamente
+2025-12-12 09:05:19,171 - INFO - python-dateutil cargado correctamente
+2025-12-12 09:05:20,390 - INFO - xlwings disponible
+2025-12-12 09:05:21,382 - INFO - Interfaz gráfica iniciada correctamente
+2025-12-12 09:05:21,382 - INFO - Log guardándose en: logs\limpiador_20251212_090518.log
+2025-12-12 09:05:25,087 - INFO - Carpeta seleccionada: C:/Users/Usuario/Downloads/para limpiar
+2025-12-12 09:05:25,088 - INFO - Iniciando procesamiento de carpeta: C:/Users/Usuario/Downloads/para limpiar
+2025-12-12 09:05:26,762 - INFO - Archivos encontrados: 1
+2025-12-12 09:05:30,091 - INFO - Usuario canceló el proceso
+2025-12-12 09:05:31,024 - INFO - Abriendo carpeta: C:\Users\Usuario\Downloads\programas\Programa de limpieza\limpios
+2025-12-12 09:05:54,610 - INFO - Carpeta seleccionada: C:/Users/Usuario/Downloads/para limpiar
+2025-12-12 09:05:54,611 - INFO - Iniciando procesamiento de carpeta: C:/Users/Usuario/Downloads/para limpiar
+2025-12-12 09:05:56,208 - INFO - Archivos encontrados: 1
+2025-12-12 09:05:56,209 - INFO - Iniciando procesamiento de 1 archivos...
+2025-12-12 09:05:56,210 - INFO - [1/1] Procesando: Reporte de liquidaciones Corte 04-Dic.xlsx
+2025-12-12 09:05:56,214 - INFO - Tamaño de archivo: 6.45 MB
+2025-12-12 09:05:56,214 - INFO - ============================================================
+2025-12-12 09:05:56,216 - INFO - Iniciando procesamiento: C:/Users/Usuario/Downloads/para limpiar\Reporte de liquidaciones Corte 04-Dic.xlsx
+2025-12-12 09:05:56,217 - INFO - Modo xlwings: False
+2025-12-12 09:05:56,217 - INFO - Iniciando proceso openpyxl para: C:/Users/Usuario/Downloads/para limpiar\Reporte de liquidaciones Corte 04-Dic.xlsx
+2025-12-12 09:05:56,218 - INFO - Tamaño de archivo: 6.45 MB
+2025-12-12 09:05:56,219 - INFO - Intentando obtener valores con xlwings...
+2025-12-12 09:06:08,868 - INFO - Valores obtenidos con xlwings exitosamente
+2025-12-12 09:06:08,868 - INFO - Cargando workbook con estilos...
+2025-12-12 09:06:24,154 - INFO - Creando workbook de valores desde xlwings...
+2025-12-12 09:06:55,548 - INFO - Creando nuevo workbook...
+2025-12-12 09:06:55,549 - INFO - Procesando hoja 1/1: Reporte_de_Liquidaciónes
+2025-12-12 09:06:56,227 - INFO - Procesando hoja 'Reporte_de_Liquidaciónes': 32331 filas x 30 columnas
+2025-12-12 09:19:31,826 - INFO - Guardando archivo en: limpios\Reporte de liquidaciones Corte 04-Dic.xlsx
+2025-12-12 09:19:59,002 - INFO - Proceso openpyxl completado: limpios\Reporte de liquidaciones Corte 04-Dic.xlsx
+2025-12-12 09:19:59,043 - INFO - ✓ Archivo procesado exitosamente: limpios\Reporte de liquidaciones Corte 04-Dic.xlsx
+2025-12-12 09:19:59,048 - INFO - Proceso finalizado. Exitosos: 1, Errores: 0
+2025-12-12 09:20:05,306 - INFO - Abriendo carpeta: C:\Users\Usuario\Downloads\programas\Programa de limpieza\limpios
+2025-12-12 09:20:42,435 - INFO - Abriendo carpeta: C:\Users\Usuario\Downloads\programas\Programa de limpieza\limpios

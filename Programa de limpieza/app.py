@@ -6,7 +6,7 @@ import subprocess
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox, simpledialog
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, time, timezone
 import re
 import copy
 import shutil
@@ -237,6 +237,45 @@ def try_parse_date(s):
         return None
 
 # ---------------------------
+# Función para eliminar tzinfo de datetimes en un workbook
+# ---------------------------
+def remove_tzinfo_from_workbook(wb):
+    """
+    Recorre todas las hojas y celdas de openpyxl Workbook `wb`
+    y convierte cualquier datetime/time con tzinfo != None a naive (tzinfo=None).
+    """
+    try:
+        for ws in wb.worksheets:
+            # iter_rows con values_only False para obtener celdas
+            for row in ws.iter_rows():
+                for cell in row:
+                    v = cell.value
+                    try:
+                        # datetime aware
+                        if isinstance(v, datetime):
+                            if v.tzinfo is not None:
+                                # convertir a UTC manteniendo el instante, luego quitar tzinfo
+                                try:
+                                    v_utc = v.astimezone(timezone.utc)
+                                    cell.value = v_utc.replace(tzinfo=None)
+                                except Exception:
+                                    # fallback: sólo quitar tzinfo (preserva los campos tal cual)
+                                    cell.value = v.replace(tzinfo=None)
+                        # time aware
+                        elif isinstance(v, time):
+                            if v.tzinfo is not None:
+                                try:
+                                    # time.astimezone no existe, mejor quitar tzinfo directamente
+                                    cell.value = v.replace(tzinfo=None)
+                                except Exception:
+                                    cell.value = v.replace(tzinfo=None)
+                    except Exception:
+                        # no bloquear por un valor problemático
+                        continue
+    except Exception as e:
+        logger.debug(f"Error en remove_tzinfo_from_workbook: {e}")
+
+# ---------------------------
 # Copiar estilos y visuales (con manejo de errores mejorado)
 # ---------------------------
 
@@ -384,6 +423,18 @@ def process_cell(ws_src_styles, ws_src_values, ws_tgt, r, c):
                 raw_value = cell_style.value
         else:
             raw_value = cell_style.value
+
+        # Si raw_value es datetime con tzinfo, limpiar para evitar problemas al guardar
+        try:
+            if isinstance(raw_value, datetime) and raw_value.tzinfo is not None:
+                try:
+                    # convertir a UTC y luego quitar tzinfo para preservar instante
+                    raw_value = raw_value.astimezone(timezone.utc).replace(tzinfo=None)
+                except Exception:
+                    # fallback: quitar tzinfo sin conversión
+                    raw_value = raw_value.replace(tzinfo=None)
+        except Exception:
+            pass
 
         # Detectar formato original
         orig_fmt = None
@@ -565,6 +616,17 @@ def check_file_size(filepath):
         return 0
 
 # ---------------------------
+# Util: detectar archivos temporales de Excel
+# ---------------------------
+def is_temp_excel_file(filename):
+    """Detecta archivos temporales que empiezan con '~$' o similares"""
+    try:
+        base = os.path.basename(filename)
+        return base.startswith('~$') or base.endswith('.tmp') or base.startswith('._')
+    except Exception:
+        return False
+
+# ---------------------------
 # Variante xlwings in-place
 # ---------------------------
 def process_workbook_xlwings_inplace(filepath, dest_folder):
@@ -692,6 +754,9 @@ def process_workbook_openpyxl_copy(filepath, dest_folder):
         logger.info("Cargando workbook con estilos...")
         try:
             wb_styles = load_workbook(filename=str(path), data_only=False, read_only=False)
+        except PermissionError as pe:
+            logger.error(f"PermissionError cargando workbook: {pe}")
+            raise RuntimeError(f"No se pudo abrir {path} con openpyxl: Permission denied. ¿Está abierto en Excel?") from pe
         except Exception as e:
             logger.error(f"Error cargando workbook: {e}")
             raise RuntimeError(f"No se pudo abrir {path} con openpyxl: {e}")
@@ -776,8 +841,26 @@ def process_workbook_openpyxl_copy(filepath, dest_folder):
 
         # Guardar
         logger.info(f"Guardando archivo en: {out_path}")
-        new_wb.save(out_path)
-        
+        try:
+            # limpiar tzinfo antes de guardar por si quedó algún datetime aware
+            remove_tzinfo_from_workbook(new_wb)
+            new_wb.save(out_path)
+        except TypeError as te:
+            # Manejo específico: openpyxl puede lanzar TypeError por tzinfo
+            logger.warning(f"TypeError al guardar (posible datetime con tz): {te}. Intentando limpiar nuevamente y reintentar.")
+            try:
+                remove_tzinfo_from_workbook(new_wb)
+                new_wb.save(out_path)
+            except Exception as e:
+                logger.error(f"Reintento falló al guardar: {e}")
+                raise
+        except PermissionError as pe:
+            logger.error(f"PermissionError al guardar {out_path}: {pe}")
+            raise
+        except Exception as e:
+            logger.error(f"Error guardando workbook: {e}")
+            raise
+
         # Cerrar workbooks explícitamente
         try:
             wb_styles.close()
@@ -875,7 +958,12 @@ def procesar_carpeta(carpeta, use_xlwings_mode=False):
         
         archivos_validos = []
         try:
-            archivos_validos = [f for f in os.listdir(carpeta) if f.lower().endswith((".xlsx", ".xlsm", ".xls"))]
+            archivos_all = os.listdir(carpeta)
+            # Filtrar solo archivos excel y excluir temporales (~$)
+            archivos_validos = [
+                f for f in archivos_all
+                if f.lower().endswith((".xlsx", ".xlsm", ".xls")) and not is_temp_excel_file(f)
+            ]
             logger.info(f"Archivos encontrados: {len(archivos_validos)}")
         except Exception as e:
             logger.error(f"Error listando archivos: {e}")
@@ -1207,4 +1295,4 @@ except Exception as e:
         )
     except:
         print(f"ERROR CRÍTICO: {e}")
-    sys.exit(1)    
+    sys.exit(1)

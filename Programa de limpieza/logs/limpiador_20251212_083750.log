@@ -1,0 +1,241 @@
+2025-12-12 08:37:52,393 - INFO - openpyxl cargado correctamente
+2025-12-12 08:37:52,435 - INFO - python-dateutil cargado correctamente
+2025-12-12 08:37:56,079 - INFO - xlwings disponible
+2025-12-12 08:37:57,570 - INFO - Interfaz gráfica iniciada correctamente
+2025-12-12 08:37:57,571 - INFO - Log guardándose en: logs\limpiador_20251212_083750.log
+2025-12-12 08:38:07,946 - INFO - Carpeta seleccionada: C:/Users/Usuario/Downloads/para limpiar
+2025-12-12 08:38:07,947 - INFO - Iniciando procesamiento de carpeta: C:/Users/Usuario/Downloads/para limpiar
+2025-12-12 08:38:09,464 - INFO - Archivos encontrados: 2
+2025-12-12 08:38:09,467 - INFO - Iniciando procesamiento de 2 archivos...
+2025-12-12 08:38:09,467 - INFO - [1/2] Procesando: Reporte de liquidaciones Corte 04-Dic.xlsx
+2025-12-12 08:38:09,470 - INFO - Tamaño de archivo: 6.44 MB
+2025-12-12 08:38:09,470 - INFO - ============================================================
+2025-12-12 08:38:09,470 - INFO - Iniciando procesamiento: C:/Users/Usuario/Downloads/para limpiar\Reporte de liquidaciones Corte 04-Dic.xlsx
+2025-12-12 08:38:09,471 - INFO - Modo xlwings: False
+2025-12-12 08:38:09,471 - INFO - Iniciando proceso openpyxl para: C:/Users/Usuario/Downloads/para limpiar\Reporte de liquidaciones Corte 04-Dic.xlsx
+2025-12-12 08:38:09,472 - INFO - Tamaño de archivo: 6.44 MB
+2025-12-12 08:38:09,473 - INFO - Intentando obtener valores con xlwings...
+2025-12-12 08:38:22,447 - INFO - Valores obtenidos con xlwings exitosamente
+2025-12-12 08:38:22,448 - INFO - Cargando workbook con estilos...
+2025-12-12 08:38:35,420 - INFO - Creando workbook de valores desde xlwings...
+2025-12-12 08:39:23,259 - INFO - Creando nuevo workbook...
+2025-12-12 08:39:23,273 - INFO - Procesando hoja 1/1: Reporte_de_Liquidaciónes
+2025-12-12 08:39:24,046 - INFO - Procesando hoja 'Reporte_de_Liquidaciónes': 32331 filas x 30 columnas
+2025-12-12 08:52:46,861 - INFO - Guardando archivo en: limpios\Reporte de liquidaciones Corte 04-Dic.xlsx
+2025-12-12 08:52:58,352 - ERROR - Error crítico en proceso openpyxl: Excel does not support timezones in datetimes. The tzinfo in the datetime/time object must be set to None.
+2025-12-12 08:52:58,772 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\programas\Programa de limpieza\app.py", line 779, in process_workbook_openpyxl_copy
+    new_wb.save(out_path)
+    ~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\workbook\workbook.py", line 386, in save
+    save_workbook(self, filename)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\writer\excel.py", line 294, in save_workbook
+    writer.save()
+    ~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\writer\excel.py", line 275, in save
+    self.write_data()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\writer\excel.py", line 77, in write_data
+    self._write_worksheets()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\writer\excel.py", line 215, in _write_worksheets
+    self.write_worksheet(ws)
+    ~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\writer\excel.py", line 200, in write_worksheet
+    writer.write()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\worksheet\_writer.py", line 359, in write
+    self.write_rows()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\worksheet\_writer.py", line 125, in write_rows
+    self.write_row(xf, row, row_idx)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\worksheet\_writer.py", line 147, in write_row
+    write_cell(xf, self.ws, cell, cell.has_style)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\cell\_writer.py", line 47, in etree_write_cell
+    value, attributes = _set_attributes(cell, styled)
+                        ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\cell\_writer.py", line 30, in _set_attributes
+    raise TypeError("Excel does not support timezones in datetimes. "
+            "The tzinfo in the datetime/time object must be set to None.")
+TypeError: Excel does not support timezones in datetimes. The tzinfo in the datetime/time object must be set to None.
+
+2025-12-12 08:52:58,785 - ERROR - Error procesando C:/Users/Usuario/Downloads/para limpiar\Reporte de liquidaciones Corte 04-Dic.xlsx: Excel does not support timezones in datetimes. The tzinfo in the datetime/time object must be set to None.
+2025-12-12 08:52:58,791 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\programas\Programa de limpieza\app.py", line 816, in process_workbook
+    return process_workbook_openpyxl_copy(filepath, dest_folder)
+  File "C:\Users\Usuario\Downloads\programas\Programa de limpieza\app.py", line 779, in process_workbook_openpyxl_copy
+    new_wb.save(out_path)
+    ~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\workbook\workbook.py", line 386, in save
+    save_workbook(self, filename)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\writer\excel.py", line 294, in save_workbook
+    writer.save()
+    ~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\writer\excel.py", line 275, in save
+    self.write_data()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\writer\excel.py", line 77, in write_data
+    self._write_worksheets()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\writer\excel.py", line 215, in _write_worksheets
+    self.write_worksheet(ws)
+    ~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\writer\excel.py", line 200, in write_worksheet
+    writer.write()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\worksheet\_writer.py", line 359, in write
+    self.write_rows()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\worksheet\_writer.py", line 125, in write_rows
+    self.write_row(xf, row, row_idx)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\worksheet\_writer.py", line 147, in write_row
+    write_cell(xf, self.ws, cell, cell.has_style)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\cell\_writer.py", line 47, in etree_write_cell
+    value, attributes = _set_attributes(cell, styled)
+                        ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\cell\_writer.py", line 30, in _set_attributes
+    raise TypeError("Excel does not support timezones in datetimes. "
+            "The tzinfo in the datetime/time object must be set to None.")
+TypeError: Excel does not support timezones in datetimes. The tzinfo in the datetime/time object must be set to None.
+
+2025-12-12 08:52:58,804 - ERROR - ✗ Error procesando Reporte de liquidaciones Corte 04-Dic.xlsx: Excel does not support timezones in datetimes. The tzinfo in the datetime/time object must be set to None.
+2025-12-12 08:52:58,809 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\programas\Programa de limpieza\app.py", line 947, in procesar_carpeta
+    out = process_workbook(ruta_proc, carpeta_destino, use_xlwings_mode=use_xlwings_mode)
+  File "C:\Users\Usuario\Downloads\programas\Programa de limpieza\app.py", line 816, in process_workbook
+    return process_workbook_openpyxl_copy(filepath, dest_folder)
+  File "C:\Users\Usuario\Downloads\programas\Programa de limpieza\app.py", line 779, in process_workbook_openpyxl_copy
+    new_wb.save(out_path)
+    ~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\workbook\workbook.py", line 386, in save
+    save_workbook(self, filename)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\writer\excel.py", line 294, in save_workbook
+    writer.save()
+    ~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\writer\excel.py", line 275, in save
+    self.write_data()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\writer\excel.py", line 77, in write_data
+    self._write_worksheets()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\writer\excel.py", line 215, in _write_worksheets
+    self.write_worksheet(ws)
+    ~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\writer\excel.py", line 200, in write_worksheet
+    writer.write()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\worksheet\_writer.py", line 359, in write
+    self.write_rows()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\worksheet\_writer.py", line 125, in write_rows
+    self.write_row(xf, row, row_idx)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\worksheet\_writer.py", line 147, in write_row
+    write_cell(xf, self.ws, cell, cell.has_style)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\cell\_writer.py", line 47, in etree_write_cell
+    value, attributes = _set_attributes(cell, styled)
+                        ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\cell\_writer.py", line 30, in _set_attributes
+    raise TypeError("Excel does not support timezones in datetimes. "
+            "The tzinfo in the datetime/time object must be set to None.")
+TypeError: Excel does not support timezones in datetimes. The tzinfo in the datetime/time object must be set to None.
+
+2025-12-12 08:52:58,918 - INFO - [2/2] Procesando: ~$Reporte de liquidaciones Corte 04-Dic.xlsx
+2025-12-12 08:52:58,920 - INFO - Tamaño de archivo: 0.00 MB
+2025-12-12 08:52:58,920 - INFO - ============================================================
+2025-12-12 08:52:58,921 - INFO - Iniciando procesamiento: C:/Users/Usuario/Downloads/para limpiar\~$Reporte de liquidaciones Corte 04-Dic.xlsx
+2025-12-12 08:52:58,921 - INFO - Modo xlwings: False
+2025-12-12 08:52:58,921 - INFO - Iniciando proceso openpyxl para: C:/Users/Usuario/Downloads/para limpiar\~$Reporte de liquidaciones Corte 04-Dic.xlsx
+2025-12-12 08:52:58,923 - INFO - Tamaño de archivo: 0.00 MB
+2025-12-12 08:52:58,924 - INFO - Intentando obtener valores con xlwings...
+2025-12-12 08:53:00,491 - WARNING - No se pudo usar xlwings para valores: (-2147352567, 'Ocurrió una excepción.', (0, 'Microsoft Excel', "Excel no puede abrir el archivo '~$Reporte de liquidaciones Corte 04-Dic.xlsx' porque el formato o la extensión no son válidos. Compruebe que el archivo no se ha dañado y que la extensión y el formato del archivo coinciden.", 'xlmain11.chm', 0, -2146827284), None)
+2025-12-12 08:53:01,001 - INFO - Cargando workbook con estilos...
+2025-12-12 08:53:01,002 - ERROR - Error cargando workbook: [Errno 13] Permission denied: 'C:\\Users\\Usuario\\Downloads\\para limpiar\\~$Reporte de liquidaciones Corte 04-Dic.xlsx'
+2025-12-12 08:53:01,002 - ERROR - Error crítico en proceso openpyxl: No se pudo abrir C:\Users\Usuario\Downloads\para limpiar\~$Reporte de liquidaciones Corte 04-Dic.xlsx con openpyxl: [Errno 13] Permission denied: 'C:\\Users\\Usuario\\Downloads\\para limpiar\\~$Reporte de liquidaciones Corte 04-Dic.xlsx'
+2025-12-12 08:53:01,099 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\programas\Programa de limpieza\app.py", line 694, in process_workbook_openpyxl_copy
+    wb_styles = load_workbook(filename=str(path), data_only=False, read_only=False)
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+                         data_only, keep_links, rich_text)
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\zipfile\__init__.py", line 1440, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Usuario\\Downloads\\para limpiar\\~$Reporte de liquidaciones Corte 04-Dic.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\programas\Programa de limpieza\app.py", line 697, in process_workbook_openpyxl_copy
+    raise RuntimeError(f"No se pudo abrir {path} con openpyxl: {e}")
+RuntimeError: No se pudo abrir C:\Users\Usuario\Downloads\para limpiar\~$Reporte de liquidaciones Corte 04-Dic.xlsx con openpyxl: [Errno 13] Permission denied: 'C:\\Users\\Usuario\\Downloads\\para limpiar\\~$Reporte de liquidaciones Corte 04-Dic.xlsx'
+
+2025-12-12 08:53:01,103 - ERROR - Error procesando C:/Users/Usuario/Downloads/para limpiar\~$Reporte de liquidaciones Corte 04-Dic.xlsx: No se pudo abrir C:\Users\Usuario\Downloads\para limpiar\~$Reporte de liquidaciones Corte 04-Dic.xlsx con openpyxl: [Errno 13] Permission denied: 'C:\\Users\\Usuario\\Downloads\\para limpiar\\~$Reporte de liquidaciones Corte 04-Dic.xlsx'
+2025-12-12 08:53:01,107 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\programas\Programa de limpieza\app.py", line 694, in process_workbook_openpyxl_copy
+    wb_styles = load_workbook(filename=str(path), data_only=False, read_only=False)
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+                         data_only, keep_links, rich_text)
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\zipfile\__init__.py", line 1440, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Usuario\\Downloads\\para limpiar\\~$Reporte de liquidaciones Corte 04-Dic.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\programas\Programa de limpieza\app.py", line 816, in process_workbook
+    return process_workbook_openpyxl_copy(filepath, dest_folder)
+  File "C:\Users\Usuario\Downloads\programas\Programa de limpieza\app.py", line 697, in process_workbook_openpyxl_copy
+    raise RuntimeError(f"No se pudo abrir {path} con openpyxl: {e}")
+RuntimeError: No se pudo abrir C:\Users\Usuario\Downloads\para limpiar\~$Reporte de liquidaciones Corte 04-Dic.xlsx con openpyxl: [Errno 13] Permission denied: 'C:\\Users\\Usuario\\Downloads\\para limpiar\\~$Reporte de liquidaciones Corte 04-Dic.xlsx'
+
+2025-12-12 08:53:01,116 - ERROR - ✗ Error procesando ~$Reporte de liquidaciones Corte 04-Dic.xlsx: No se pudo abrir C:\Users\Usuario\Downloads\para limpiar\~$Reporte de liquidaciones Corte 04-Dic.xlsx con openpyxl: [Errno 13] Permission denied: 'C:\\Users\\Usuario\\Downloads\\para limpiar\\~$Reporte de liquidaciones Corte 04-Dic.xlsx'
+2025-12-12 08:53:01,120 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\programas\Programa de limpieza\app.py", line 694, in process_workbook_openpyxl_copy
+    wb_styles = load_workbook(filename=str(path), data_only=False, read_only=False)
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+                         data_only, keep_links, rich_text)
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "C:\Users\Usuario\AppData\Local\Python\pythoncore-3.14-64\Lib\zipfile\__init__.py", line 1440, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Usuario\\Downloads\\para limpiar\\~$Reporte de liquidaciones Corte 04-Dic.xlsx'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Downloads\programas\Programa de limpieza\app.py", line 947, in procesar_carpeta
+    out = process_workbook(ruta_proc, carpeta_destino, use_xlwings_mode=use_xlwings_mode)
+  File "C:\Users\Usuario\Downloads\programas\Programa de limpieza\app.py", line 816, in process_workbook
+    return process_workbook_openpyxl_copy(filepath, dest_folder)
+  File "C:\Users\Usuario\Downloads\programas\Programa de limpieza\app.py", line 697, in process_workbook_openpyxl_copy
+    raise RuntimeError(f"No se pudo abrir {path} con openpyxl: {e}")
+RuntimeError: No se pudo abrir C:\Users\Usuario\Downloads\para limpiar\~$Reporte de liquidaciones Corte 04-Dic.xlsx con openpyxl: [Errno 13] Permission denied: 'C:\\Users\\Usuario\\Downloads\\para limpiar\\~$Reporte de liquidaciones Corte 04-Dic.xlsx'
+
+2025-12-12 08:53:01,129 - INFO - Proceso finalizado. Exitosos: 0, Errores: 2
+2025-12-12 08:53:56,976 - INFO - Abriendo carpeta de logs: C:\Users\Usuario\Downloads\programas\Programa de limpieza\logs
